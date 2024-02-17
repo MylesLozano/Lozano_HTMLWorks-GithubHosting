@@ -3,3 +3,26 @@ hr {
     text-align: left;
     margin-left: 0;
 }
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+    border: 1px solid;
+}
+
+p {
+    width: 50%;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-left: 20px;
+}
