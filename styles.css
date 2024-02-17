@@ -1,15 +1,19 @@
 body {
-    background-color: #d74545;
+    background-color: #dad8d6;
 }
 
-hr {
-    width: 75%;
-    text-align: left;
-    margin-left: 0;
+img {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
 }
 
 h1 {
     text-align: center;
+}
+
+section {
+    margin: 20px 0 0 50px;
 }
 
 hr {
@@ -19,6 +23,7 @@ hr {
 }
 
 p {
+    font-family: Arial, Helvetica, sans-serif;
     width: 50%;
     text-align: justify;
 }
@@ -35,6 +40,7 @@ article p {
     background-color: #4CAF50;
     /* Green */
     border: none;
+    border-radius: 20px;
     color: white;
     padding: 15px 30px;
     text-align: center;
