@@ -1,7 +1,3 @@
-body {
-    background-color: #dad8d6;
-}
-
 img {
     margin: 20px 20px 20px 40px;
     border-radius: 50%;
@@ -33,14 +29,23 @@ article p {
     margin-left: 20px;
 }
 
-.skillsetsandcert {
+.cert {
     text-align: center;
     width: auto;
 }
 
-.skillsetsandcert img {
+.cert img {
     border-radius: 0;
     max-width: 20%;
+}
+
+.skills {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.projects {
+    margin: 0 0 0 50px;
 }
 
 .button {
@@ -60,4 +65,8 @@ article p {
 .button:hover {
     background-color: #317333;
     color: burlywood;
+}
+
+ul {
+    list-style-position: inside;
 }
