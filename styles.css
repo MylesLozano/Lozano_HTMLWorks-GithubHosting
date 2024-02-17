@@ -39,13 +39,21 @@ article p {
     max-width: 20%;
 }
 
+.skills_container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .skills {
-    display: inline-block;
-    margin-left: 5%;
+    margin-left: 16%;
+}
+
+.technical {
+    width: 50%;
 }
 
 .projects {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 5%;
 }
 
 .button {
